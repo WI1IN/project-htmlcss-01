@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+  "key": "ctrl+shift+i",
+  "command": "extension.wrapTag",
+  "when": "editorTextFocus"
+}
