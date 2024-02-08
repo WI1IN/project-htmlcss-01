@@ -5,8 +5,10 @@
     --primary-color:#0F1B4C;
 }
 
-html{
+html,
+body{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 .btn{
     display: inline-block;
