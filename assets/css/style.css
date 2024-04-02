@@ -289,7 +289,8 @@ a{
 /* ========== List ========== */
 .featured .list{
     margin-top: 70px;
-    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
     gap: 30px;
 }
 .featured .item{
@@ -527,7 +528,7 @@ a{
     display: flex;
 }
 .footer .row-top{
-    gap: 185px;
+    column-gap: 185px;
 }
 .footer .heading{
     font-family: 'Lato',sans-serif;
